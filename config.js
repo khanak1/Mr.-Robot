@@ -1,6 +1,13 @@
-
 const fs = require('fs')
 const chalk = require('chalk')
+module.exports = {
+SESSION_ID: process.env.SESSION_ID || "izumi~YvPH1yqZ",
+MODE: process.env.MODE || "public",
+AUTO_VOICE: process.env.AUTO_VOICE || "",
+AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "false",
+global.AUTO_REACT: process.env.AUTO_REACT || "true",
+}
 global.socialm = "Fb: @afzaalkhan.k"
 global.location = "Azad Jammu & Kashmir"
 global.botname = 'Sarkar_Ak'
@@ -15,6 +22,7 @@ global.author = "Afzaal_Khan"
 global.creator = "923556159234@s.whatsapp.net"
 global.xprefix = '.'
 global.premium = ["923556159234"]
+global.session_id = "izumi~YvPH1yqZ"
 global.hituet = 0
 global.typemenu = 'v12'
 global.typereply = 'v4' 
